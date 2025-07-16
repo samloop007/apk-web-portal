@@ -1,32 +1,32 @@
 import { 
-  Gamepad2, 
-  Camera, 
-  Music, 
-  Video, 
-  Book, 
-  ShoppingBag, 
-  Utensils, 
-  Car,
-  Briefcase,
-  Heart,
-  Palette,
-  Wrench
+  Shield, 
+  Wifi, 
+  Lock, 
+  Eye, 
+  Code, 
+  Search, 
+  Zap, 
+  Terminal,
+  Network,
+  Key,
+  Bug,
+  Fingerprint
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const categories = [
-  { name: "Games", icon: Gamepad2, count: "2.5K", color: "from-red-500 to-pink-500" },
-  { name: "Photography", icon: Camera, count: "890", color: "from-blue-500 to-cyan-500" },
-  { name: "Music", icon: Music, count: "1.2K", color: "from-purple-500 to-violet-500" },
-  { name: "Video", icon: Video, count: "670", color: "from-orange-500 to-red-500" },
-  { name: "Education", icon: Book, count: "1.5K", color: "from-green-500 to-emerald-500" },
-  { name: "Shopping", icon: ShoppingBag, count: "430", color: "from-pink-500 to-rose-500" },
-  { name: "Food", icon: Utensils, count: "320", color: "from-yellow-500 to-orange-500" },
-  { name: "Travel", icon: Car, count: "280", color: "from-indigo-500 to-blue-500" },
-  { name: "Business", icon: Briefcase, count: "950", color: "from-gray-600 to-gray-800" },
-  { name: "Health", icon: Heart, count: "540", color: "from-red-400 to-pink-400" },
-  { name: "Art", icon: Palette, count: "720", color: "from-purple-400 to-pink-400" },
-  { name: "Tools", icon: Wrench, count: "1.1K", color: "from-slate-500 to-gray-600" }
+  { name: "Penetration", icon: Shield, count: "420", color: "from-primary to-primary-glow" },
+  { name: "Network", icon: Wifi, count: "380", color: "from-primary to-primary-glow" },
+  { name: "Crypto", icon: Lock, count: "290", color: "from-primary to-primary-glow" },
+  { name: "OSINT", icon: Eye, count: "250", color: "from-primary to-primary-glow" },
+  { name: "Exploits", icon: Code, count: "180", color: "from-primary to-primary-glow" },
+  { name: "Forensics", icon: Search, count: "120", color: "from-primary to-primary-glow" },
+  { name: "Payloads", icon: Zap, count: "95", color: "from-primary to-primary-glow" },
+  { name: "Shells", icon: Terminal, count: "340", color: "from-primary to-primary-glow" },
+  { name: "Proxies", icon: Network, count: "280", color: "from-primary to-primary-glow" },
+  { name: "Keyloggers", icon: Key, count: "150", color: "from-primary to-primary-glow" },
+  { name: "Malware", icon: Bug, count: "75", color: "from-primary to-primary-glow" },
+  { name: "Biometrics", icon: Fingerprint, count: "60", color: "from-primary to-primary-glow" }
 ];
 
 const Categories = () => {
@@ -34,10 +34,10 @@ const Categories = () => {
     <section className="py-16 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Browse by Category</h2>
+          <h2 className="text-3xl font-bold mb-4 text-primary">Tool Categories</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Discover apps across different categories. From games to productivity tools, 
-            we have everything you need.
+            Professional hacking tools and utilities organized by specialization. 
+            Choose your weapon of choice.
           </p>
         </div>
 

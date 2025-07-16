@@ -1,4 +1,4 @@
-import { Search, Download, Menu } from "lucide-react";
+import { Search, Shield, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -9,14 +9,14 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Download className="h-6 w-6 text-primary-foreground" />
+            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+              <Shield className="h-6 w-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                APK Store
+              <h1 className="text-xl font-bold text-primary">
+                Dark Tools
               </h1>
-              <p className="text-xs text-muted-foreground">Premium Apps</p>
+              <p className="text-xs text-muted-foreground">Elite Network</p>
             </div>
           </div>
 
@@ -33,14 +33,14 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden lg:flex items-center space-x-6">
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Categories
+            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              Tools
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Top Apps
+            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              Elite
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              New Releases
+            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              Latest
             </a>
           </nav>
 

@@ -3,70 +3,70 @@ import AppCard from "./AppCard";
 const featuredApps = [
   {
     id: "1",
-    name: "PhotoMaster Pro",
-    developer: "Creative Studios",
-    category: "Photography",
-    rating: 4.8,
-    downloads: "10M+",
-    size: "45MB",
+    name: "Metasploit Framework",
+    developer: "Rapid7",
+    category: "Penetration Testing",
+    rating: 4.9,
+    downloads: "250K+",
+    size: "128MB",
     icon: "",
     featured: true,
     verified: true
   },
   {
     id: "2",
-    name: "GameBoost",
-    developer: "Performance Labs",
-    category: "Tools",
-    rating: 4.7,
-    downloads: "5M+",
-    size: "28MB",
+    name: "Wireshark",
+    developer: "Wireshark Foundation",
+    category: "Network Analysis",
+    rating: 4.8,
+    downloads: "180K+",
+    size: "85MB",
     icon: "",
     featured: true,
     verified: true
   },
   {
     id: "3",
-    name: "MusicFlow",
-    developer: "Audio Tech",
-    category: "Music",
-    rating: 4.9,
-    downloads: "15M+",
-    size: "67MB",
+    name: "Nmap",
+    developer: "Nmap Project",
+    category: "Network Scanner",
+    rating: 4.7,
+    downloads: "320K+",
+    size: "45MB",
     icon: "",
     featured: true,
     verified: true
   },
   {
     id: "4",
-    name: "FitTracker Pro",
-    developer: "Health Apps Inc",
-    category: "Health",
+    name: "Burp Suite",
+    developer: "PortSwigger",
+    category: "Web Security",
     rating: 4.6,
-    downloads: "8M+",
-    size: "38MB",
+    downloads: "95K+",
+    size: "156MB",
     icon: "",
     verified: true
   },
   {
     id: "5",
-    name: "CodeEditor Plus",
-    developer: "Dev Tools",
-    category: "Productivity",
-    rating: 4.8,
-    downloads: "3M+",
-    size: "52MB",
+    name: "John the Ripper",
+    developer: "Openwall",
+    category: "Password Cracking",
+    rating: 4.5,
+    downloads: "75K+",
+    size: "32MB",
     icon: "",
     verified: true
   },
   {
     id: "6",
-    name: "SecureVPN",
-    developer: "Privacy Corp",
-    category: "Tools",
-    rating: 4.7,
-    downloads: "12M+",
-    size: "25MB",
+    name: "SQLMap",
+    developer: "SQLMap Dev Team",
+    category: "SQL Injection",
+    rating: 4.4,
+    downloads: "65K+",
+    size: "28MB",
     icon: "",
     verified: true
   }
@@ -77,9 +77,9 @@ const FeaturedApps = () => {
     <section className="py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Featured Apps</h2>
+          <h2 className="text-3xl font-bold mb-4 text-primary">Elite Tools</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Hand-picked premium applications that deliver exceptional performance and user experience.
+            Professional-grade hacking tools used by penetration testers and security researchers worldwide.
           </p>
         </div>
 
